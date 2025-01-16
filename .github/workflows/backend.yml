@@ -14,7 +14,7 @@
 
  jobs:
    email-service:
-     uses: EventCHI/chi-infra-workflows/.github/workflows/k8s-build-deploy.yml@chore/url-change
+     uses: Space-by-CHI/chi-infra-workflows/.github/workflows/k8s-build-deploy.yml@chore/url-change
      secrets: inherit
      with:
        dockerfile_path: "Dockerfile"
